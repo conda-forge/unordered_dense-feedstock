@@ -10,12 +10,14 @@ source:
   sha256: 3976399793e8cb4db1409ce15610fbd9e5e406ced4745f262d393a9311efbd88
 
 build:
-  number: 0
+  number: 1
 
 requirements:
   build:
     - {{ compiler('cxx') }}
     - cmake
+    - pkg-config
+    - gnuconfig
     - make  # [unix]
 
 test:
