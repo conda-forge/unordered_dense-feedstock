@@ -16,6 +16,8 @@ requirements:
   build:
     - {{ compiler('cxx') }}
     - cmake
+    - pkg-config
+    - gnuconfig
     - make  # [unix]
 
 test:
