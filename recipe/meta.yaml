@@ -1,5 +1,5 @@
 {% set name = "unordered_dense" %}
-{% set version = "4.9.2" %}
+{% set version = "4.10.0" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://github.com/martinus/unordered_dense/archive/v{{ version }}.tar.gz
-  sha256: abe3b267cbec3094bd7ca84a9990d7723a8d3dda141e08c67e295e3175f6ee28
+  sha256: 3a3ab0abd80cbfd6b8f86becf9f82fc0961230abcea2d34a8b1035c59d5dd24d
 
 build:
   number: 0
